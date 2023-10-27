@@ -24,5 +24,51 @@
     }
     
     /* Carousel Design */
+    .testimonial-section .carousel-caption p{
+        padding: 0;
+    }
 
+    /* footer design */
+.footer .footer-social a i{
+    padding:0 0.75rem;
+}
+
+
+}
+
+
+@media(max-width:767px){
+
+    /* custom css */
+    h1{
+        font-size: 2.8rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+
+    /* top banner */
+    .top-banner{
+        padding: 10.375rem 0 9.375rem;
+    }
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+}
+
+@media(max-width:330px){
+    .top-banner{
+        padding: 10px 200px;
+    }
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+
+    .footer .footer-social a i {
+        padding: 0 0.5rem;
+    }
 }
