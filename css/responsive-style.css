@@ -64,19 +64,31 @@
     .top-banner{
         padding: 10px 200px;
     }
+
+    .top-banner h1{
+       font-size: 32px;
+    }
+
+    .about-section .container h2{
+        font-size: 1rem;
+    }
+    .explore-food .text-content {
+        width: 100%;
+        margin: 2rem 0 0 0;
+    }
     .testimonial-section .carousel-item{
-        margin-top:0rem;       
+        padding: 13rem 3.125rem;
     }
 
-    .carousel-caption {
-        top:0em;
-    }
-
-    .text-content{
+    .testimonial-section .carousel-item.carousel-caption {
         padding-bottom: 0.25rem;
     }
 
-    .footer.footer-social a i {
-        padding: 0 0.5rem;
+   .footer a {
+        padding:0 0.0rem;
+    }
+
+    .carousel-caption {
+        top:0.25rem
     }
 }
