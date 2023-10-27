@@ -1,8 +1,6 @@
 @media (max-width: 991px){
     /* custom classes */
-    .text-content{
-        width:100%;
-    }
+    
 
 
     /* navbar brand */
@@ -29,9 +27,9 @@
     }
 
     /* footer design */
-.footer .footer-social a i{
-    padding:0 0.75rem;
-}
+/* .footer .footer-social a i{
+    padding:0 12px;
+} */
 
 
 }
@@ -58,17 +56,27 @@
     .testimonial-section .carousel-item{
         padding: 11rem 3.125rem;
     }
+
+    
 }
 
-@media(max-width:330px){
+@media(max-width:320px){
     .top-banner{
         padding: 10px 200px;
     }
     .testimonial-section .carousel-item{
-        padding: 13rem 3.125rem;
+        margin-top:0rem;       
     }
 
-    .footer .footer-social a i {
+    .carousel-caption {
+        top:0em;
+    }
+
+    .text-content{
+        padding-bottom: 0.25rem;
+    }
+
+    .footer.footer-social a i {
         padding: 0 0.5rem;
     }
 }
